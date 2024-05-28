@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb4d68d-f420-4bb5-a9bd-b4ff3c400611" name="更改" comment="1st update">
-      <change afterPath="$PROJECT_DIR$/common/DebugMode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/DoBotArm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/DobotDll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/DobotDll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/DobotDllType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/Qt5Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/Qt5Network.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/Qt5SerialPort.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/msvcp120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Dobot/msvcr120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/DobotRobot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Log_Info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Relay_Serial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Serial_Control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Serial_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestObjiect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestObjiect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/DebugMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/DebugMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/RobotTesting_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Memo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Time_now.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Time_now.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +50,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sunyubin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sunyubin/TestObject.git&quot;,
+    &quot;accountId&quot;: &quot;0da8815b-1fa5-4e93-96c1-8264503adb04&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/asyncio/threads.pyi" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python310/Lib/site-packages/serial/serialutil.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python38/Lib/asyncio/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python38/Lib/site-packages/pydobot/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python38/Lib/site-packages/pydobot/dobot.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/common/Log_Info.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2flovPDwznjB185abBWFpSrfpmC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,15 +85,107 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python 测试.TestCase.test_Color 的 Python 测试.executor": "Run",
+    "Python.DebugMode.executor": "Run",
+    "Python.DoBotArm.executor": "Run",
+    "Python.DobotControl.executor": "Run",
+    "Python.DobotDllType.executor": "Run",
+    "Python.DobotRobot (1).executor": "Run",
+    "Python.Logging.executor": "Run",
+    "Python.QGRobot.executor": "Run",
+    "Python.Relay_Serial.executor": "Run",
+    "Python.Serial_Control.executor": "Run",
     "Python.TestCase.executor": "Run",
     "Python.Time_now.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.serial_control.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/TestObjiect",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TestObjiect\common" />
+      <recent name="E:\TestObjiect\common\Dobot" />
+      <recent name="E:\TestObjiect\.venv\Lib\site-packages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestCode\TestObjiect\common" />
+      <recent name="E:\TestObjiect\common" />
+      <recent name="E:\TestObjiect\common\Dobot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.TestCase">
+    <configuration name="DebugMode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestObjiect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/DebugMode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Relay_Serial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestObjiect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Relay_Serial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Serial_Control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestObjiect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Serial_Control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestObjiect" />
       <option name="ENV_FILES" value="" />
@@ -72,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Time_now" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="serial_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestObjiect" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,58 +221,22 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Time_now.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/serial_control.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestObjiect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for TestCase.test_Color" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TestObjiect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestCase.test_Color&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.Time_now" />
         <item itemvalue="Python.TestCase" />
-        <item itemvalue="Python 测试.Python tests for TestCase.test_Color" />
+        <item itemvalue="Python.Relay_Serial" />
+        <item itemvalue="Python.Serial_Control" />
+        <item itemvalue="Python.DebugMode" />
+        <item itemvalue="Python.serial_control" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714472349673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st update">
+      <option name="closed" value="true" />
+      <created>1714964464777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714964464777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
