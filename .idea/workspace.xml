@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb4d68d-f420-4bb5-a9bd-b4ff3c400611" name="更改" comment="1st update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobotTesting_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/RobotTesting_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Serial_log.log" afterDir="false" />
-    </list>
+    <list default="true" id="3cb4d68d-f420-4bb5-a9bd-b4ff3c400611" name="更改" comment="1st update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_LARGE_FILES_LIMIT_MB" value="500" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -39,10 +36,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/asyncio/threads.pyi" root0="SKIP_INSPECTION" />
     <setting file="file://C:/Program Files/Python310/Lib/site-packages/serial/serialutil.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python310/Lib/site-packages/serial/serialwin32.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/Program Files/Python310/Lib/threading.py" root0="SKIP_INSPECTION" />
     <setting file="file://C:/Program Files/Python38/Lib/asyncio/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://C:/Program Files/Python38/Lib/site-packages/pydobot/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://C:/Program Files/Python38/Lib/site-packages/pydobot/dobot.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/common/Log_Info.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/common/Log_Info.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -55,45 +54,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python 测试.TestCase.test_Color 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DebugMode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DoBotArm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DobotControl.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DobotDllType.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DobotRobot (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Logging.executor&quot;: &quot;Run&quot;,
-    &quot;Python.QGRobot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Relay_Serial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Serial_Control.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Time_now.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.serial_control.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/TestObjiect&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python 测试.TestCase.test_Color 的 Python 测试.executor": "Run",
+    "Python.ADB_Control.executor": "Run",
+    "Python.DebugMode.executor": "Run",
+    "Python.DoBotArm.executor": "Run",
+    "Python.DobotControl.executor": "Run",
+    "Python.DobotDllType.executor": "Run",
+    "Python.DobotRobot (1).executor": "Run",
+    "Python.ImgRecognition.executor": "Run",
+    "Python.Itech_Control.executor": "Run",
+    "Python.Logging.executor": "Run",
+    "Python.QGRobot.executor": "Run",
+    "Python.Relay_Serial.executor": "Run",
+    "Python.Serial_Control.executor": "Run",
+    "Python.TestCase.executor": "Run",
+    "Python.Time_now.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.get_data.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.serial_control.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/TestObjiect",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TestObjiect\common" />
+      <recent name="E:\TestObjiect" />
       <recent name="E:\TestObjiect\common\Dobot" />
       <recent name="E:\TestObjiect\.venv\Lib\site-packages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TestObjiect\common\itech_control" />
       <recent name="D:\TestCode\TestObjiect\common" />
       <recent name="E:\TestObjiect\common" />
       <recent name="E:\TestObjiect\common\Dobot" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="运行 Python 文件" flag="true" />
+      <visibility group="运行 conda 命令" flag="true" />
+      <visibility group="运行 pip 命令" flag="true" />
+    </myKeys>
+  </component>
   <component name="RunManager" selected="Python.TestCase">
+    <configuration name="ADB_Control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestObjiect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/ADB_Control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DebugMode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestObjiect" />
       <option name="ENV_FILES" value="" />
@@ -116,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Relay_Serial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ImgRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestObjiect" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Relay_Serial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/ImgRecognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Serial_Control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Itech_Control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestObjiect" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/itech_control" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Serial_Control.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/itech_control/Itech_Control.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,35 +218,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="serial_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestObjiect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/serial_control.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.TestCase" />
-        <item itemvalue="Python.Relay_Serial" />
-        <item itemvalue="Python.Serial_Control" />
+        <item itemvalue="Python.ImgRecognition" />
+        <item itemvalue="Python.ADB_Control" />
         <item itemvalue="Python.DebugMode" />
-        <item itemvalue="Python.serial_control" />
+        <item itemvalue="Python.Itech_Control" />
       </list>
     </recent_temporary>
   </component>
@@ -254,8 +268,43 @@
       <option name="project" value="LOCAL" />
       <updated>1716860705455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1st update">
+      <option name="closed" value="true" />
+      <created>1717152748150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717152748150</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1st update">
+      <option name="closed" value="true" />
+      <created>1717153879236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717153879237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1st update">
+      <option name="closed" value="true" />
+      <created>1717154342809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717154342809</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -1,7 +1,5 @@
 import threading
 import time
-
-import eventlet
 import serial
 from typing import Optional
 from common import Log_Info
