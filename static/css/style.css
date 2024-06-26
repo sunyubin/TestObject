@@ -1,0 +1,38 @@
+.selected {
+    background-color: #ccc;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#test-cases {
+    list-style-type: none;
+    padding: 0;
+}
+#test-cases li {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#test-cases li:hover {
+    background-color: #f0f0f0;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
